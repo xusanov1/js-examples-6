@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/73/6c/6d/736c6de90a3d827b3053d4c74061bcd7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 350px;
+    padding-left: 200px;
+}
+
+button{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(197, 152, 18, 0.272);
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(247, 188, 9);
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgba(197, 152, 18, 0.272);
+    color: white;
+}
+
+.container{
+    width: 400px;
+    padding-right: 150px;
+}
+
+.food-item{
+    border: 1px solid  rgba(197, 152, 18, 0.272);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#one{
+    border-right: 1px solid  rgba(197, 152, 18, 0.272);
+    padding: 10px;
+}
+
+p{
+    padding-right: 300px;
+}
